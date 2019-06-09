@@ -1,0 +1,6 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x C-f and enter text in its buffer.
+
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/"))
